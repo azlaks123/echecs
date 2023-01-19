@@ -8,7 +8,7 @@ public class Fou implements IPieces {
     }
 
     public String getColor(){
-        return (estBlanc() ? "blanc" : "black");
+        return (estBlanc() ? "blanc" : "noir");
     }
 
     public boolean deplacementValide(int x1, int y1, int x2, int y2) {
